@@ -177,7 +177,7 @@ export const Signup = () => {
             <div className={` w-full`}>
               <h4>Already have an account?</h4>
               <Link to="/login" className="text-blue-600 pl-2">
-                Sign In
+                LogIn
               </Link>
             </div>
           </form>
