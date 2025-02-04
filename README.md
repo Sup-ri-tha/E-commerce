@@ -1,15 +1,17 @@
-#Milestone-9
+**Milestone-10**
 
-- Created a React form component to take user input for product details.
+- Developed an Express router to handle product-related API requests.
 
-- Added input fields for product name, description, price, category, and stock quantity.
+- Configured Multer to manage product image uploads and store file paths.
 
-- Implemented file input to support multiple image uploads.
+- Created a Mongoose schema to define product structure and enforce validations.
 
-- Managed form state using React hooks.
+- Implemented email validation to ensure only valid sellers can add products.
 
-- Connected the form with the backend API to store data in the database.
+- Integrated image uploads by storing file paths instead of actual images.
 
-- Ensured form validation to prevent invalid submissions.
+- Connected the product API with the database to store product details.
 
-- Pushed the code to GitHub and updated the README file.
+- Added error handling to prevent invalid product submissions.
+
+- Mounted the /product route in index.js after authentication setup.
