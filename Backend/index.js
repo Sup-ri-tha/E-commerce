@@ -16,6 +16,7 @@ app.get('/', (req, res) => {
 })
 
 app.use('/auth', userrouter);
+app.use('/product', productrouter);
 
 app.listen(PORT, async() => {
     try{

@@ -86,7 +86,7 @@ const handlesubmit = async (e) => {
             </div>
             <div>
                 <label htmlFor="">Image</label>
-                <input type="file" onChange={(e)=>handleImage(e)} required multiple id='upload' />
+                <input type="file" onChange={(e)=>handleImage(e)} required multiple id='upload'  />
             </div>
             <div>
                 <AiOutlinePlusCircle htmlFor="upload"/>
