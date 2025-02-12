@@ -1,15 +1,6 @@
-#Milestone-9
-
-- Created a React form component to take user input for product details.
-
-- Added input fields for product name, description, price, category, and stock quantity.
-
-- Implemented file input to support multiple image uploads.
-
-- Managed form state using React hooks.
-
-- Connected the form with the backend API to store data in the database.
-
-- Ensured form validation to prevent invalid submissions.
-
-- Pushed the code to GitHub and updated the README file.
+ # Milestone-11 & 12
+- Connected the product form frontend to MongoDB.  
+- Updated `products.js` to use the GET router for fetching data from MongoDB.  
+- Passed retrieved data to `home.jsx` to display existing products.  
+- Planned to implement Nodemailer in Milestone 12 but skipped it based on mentor's advice.  
+- Modified the POST router to make the form functional, enabling new product uploads to the database.
