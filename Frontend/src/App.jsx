@@ -7,6 +7,7 @@ import {Login} from  './Component/Login'
 import {Signup} from './Component/Signup'
 import {Home} from './page/Home'
 import Productform from './Component/Productform'
+import Productcardforseller from './Component/Productcardforseller'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
         <Route path="/Login" element={<Login/>}></Route>
         <Route path="/Signup" element={<Signup/>}></Route>
         <Route path="/productform" element={<Productform/>}></Route>
+        <Route path="/productcardforseller" element={<Productcardforseller/>}></Route>
       </Routes>
     </>
   )
