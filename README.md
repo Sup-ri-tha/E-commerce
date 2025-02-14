@@ -50,3 +50,28 @@ At this stage, we’ve laid the foundation for the backend by setting up the dir
   - **`utils/`**: Stores utility functions, including the `ErrorHandler.js` to manage application-level errors.
 
 In the **`index.js`** file, we imported Express, initialized the app, and set up basic routing and server listening. We can now handle HTTP requests through `app.get` and set the server to listen for incoming requests on the specified port....
+
+🚀 Milestone 4: Creating User Model and Controller
+Designed a user schema with essential fields.
+Created a User Controller to manage user operations.
+Added authentication-related fields in the database.
+Implemented a method to create and fetch users.
+Integrated Multer for profile picture uploads.
+Defined API routes for user-related actions.
+Established a folder structure for backend models.
+Validated user input before database insertion.
+Stored uploaded files in a designated directory.
+Enhanced backend organization for maintainability.
+
+
+🚀 Milestone 5: Building the Sign-Up Page
+Designed a clean and responsive sign-up page.
+Included fields for user registration.
+Implemented email and password validation.
+Added error messages for invalid inputs.
+Ensured mobile responsiveness.
+Used Tailwind CSS for styling.
+Enhanced UI consistency across components.
+Connected frontend form with backend API.
+Handled form submission and input validation.
+Debugged validation logic for various edge cases.
