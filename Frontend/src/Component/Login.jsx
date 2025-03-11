@@ -16,7 +16,7 @@ export const Login = () => {
           <label htmlFor="email" className="block text-gray-600 mb-2">
             Email
           </label>
-          <input
+          <input 
             type="email"
             id="email"
             className="w-full border-2 border-gray-300 p-3 rounded-lg outline-none focus:border-purple-500"
