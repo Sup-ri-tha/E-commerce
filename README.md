@@ -1,15 +1,13 @@
-#Milestone-9
+# Milestone-15
 
-- Created a React form component to take user input for product details.
+- Created a responsive navbar using **Tailwind CSS** with a `flex` layout for alignment.  
 
-- Added input fields for product name, description, price, category, and stock quantity.
+- Added navigation links to **Home, Product Form, Login, and Signup** for easy access.  
 
-- Implemented file input to support multiple image uploads.
+- Used `NavLink` from React Router to enable smooth navigation and highlight the active page dynamically.  
 
-- Managed form state using React hooks.
+- Styled the navbar with a **gray background, padding, and hover effects** for a clean UI.  
 
-- Connected the form with the backend API to store data in the database.
+- Ensured spacing between links using `space-x-4` for a well-structured layout.  
 
-- Ensured form validation to prevent invalid submissions.
-
-- Pushed the code to GitHub and updated the README file.
+- Included a **container wrapper (`mx-auto`)** to keep the navbar centered and properly aligned. 🚀
