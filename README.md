@@ -124,3 +124,105 @@ A full-fledged e-commerce application built using the MERN stack (MongoDB, Expre
 - Passed retrieved data to `home.jsx` to display existing products.  
 - Planned to implement Nodemailer in Milestone 12 but skipped it based on mentor's advice.  
 - Modified the POST router to make the form functional, enabling new product uploads to the database.
+
+# Milestone - 13
+- Have created a update-product API endpoint in the backend
+- Have created a frontend form to update the product
+- Have learned how to connect the frontend to backend to update the product
+- Have used useNavigate hook to go back to the home page after successfully updating the product.
+
+# Milestone - 14
+- Have created a delete product API endpoint
+- Have added a button to the card in order to facitilate the delete function
+- Have used axios in frontend to tell backend to delete that particular product
+- After deletion fetching the rest of the products to update the home page
+
+# Milestone - 15
+- We have created a Navbar.jsx file in the navbar folder and exported it
+- The file has been imported in app.jsx file and added to the top of the routes so that the navbar would be seen on every page.
+- Have added the option to toggel navbar for smaller screens like mobile phones
+
+# Milestone - 16
+- Have created a jsx page to view each product in detail including all of its images.
+- When user clicks on a product it redirects them to this page.
+- Added a image carosoul to view all the images in a more organized way.
+  
+# Milestone - 17
+- Created cart Schema
+- Created cart route
+- Created card controller
+
+# Milestone - 18
+- Created function to get products from cart
+- created a route to get the products
+- added authoriztion to prevent others from seeing the cart details
+
+Milestone - 19
+In this milestone we coded the frontend UI for cart products.
+
+Key Features:
+Have fetched the user cart data from the backend.
+Have made the cart page and sucessfuly displayed each item in the cart.
+Milestone - 20
+In this milestone we have added the profile page section
+
+Key Featuers:
+Have created the backend to fetch the user profile data from the server
+Have created the frontend profile page UI
+Have error proofed the Address section by showing 'No Address Found' if address is missing
+Milestone -21
+In this milestone we have created the address page
+
+Key Features:
+Have created the frontend to add the address.
+Have used state to sucessfully update the form upon user input.
+Milestone - 22
+In this milestone we have added the backend functionality to the address page
+
+Key Features:
+Have created a new route to add the address
+Written the function which adds the new address to the database
+Have connected frontend address page to the backend logic using axios
+Have added a delete address functionality
+Milestone - 23
+In this milestone we have the functionality to place order
+
+Key Features:
+Have created a Place order button in the cart page to go to checkout
+Have created select address page to display the available addresses to deliver the product
+Have written the mongoose schema to store the order details.
+Milestone - 24
+In this Milestone we have added the order confirmation page
+
+Key Features:
+Have created the frontend to display the order confimation page
+Have shown the addres, total price and the products in the order confirmation page.
+Have added that page to the route for easy navigation
+Milestone - 25
+In this Milestone we have set up the backend for orders
+
+Key Features:
+Have set up a api to create the order
+Have created the order model
+Have added the route to confirm order
+Milestone - 26
+In this milestone we have set up the backed to get order details
+
+Key Features:
+Have created a controller to get all the user order data
+Have added that controller to the order routes
+Have added the order routes under the api '/orders'
+Milestone - 27
+In this milestone we created frontend to display all orders.
+
+Key Features:
+Have created order history frontend page
+Have added it's navigatin in the navbar
+Have updated the other files to show the order-history.
+Milestone - 28
+In this milestone we have added the concel option for placed orders
+
+Key Features:
+Have created the frontend to show the option to cancel the order
+Have created the backend to handle the order cancellation
+Have shown the cancel option only if the item is not canceled
